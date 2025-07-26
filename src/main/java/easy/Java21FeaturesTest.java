@@ -32,7 +32,7 @@ public class Java21FeaturesTest {
         }).join();  // Added join() to wait for the virtual thread
 
         // Test 5: Sequenced Collection
-        var list = List.of(1, 2, 3, 4, 5);
+        var list = List.of(1, 2, 3, 4, 5, 6);
         System.out.println("First element: " + list.getFirst());
         System.out.println("Last element: " + list.getLast());
     }
